@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "s3_bucket": "zappa-p62q5703d",
+        "project_name": "zappaSplitter",
+        "keep_warm": false,
+        "debug": true,
+        "log_level": "DEBUG",
+        "aws_region": "us-east-1",
+        "http_methods": [
+            "GET"
+        ],
+        "delete_local_zip": true,
+        "delete_s3_zip": false,
+        "parameter_depth": 1,
+        "timeout_seconds": 300,
+        "memory_size": 128,
+        "use_precompiled_packages": true
+    }
+}
